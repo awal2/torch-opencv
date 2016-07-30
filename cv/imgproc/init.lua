@@ -2876,7 +2876,7 @@ do
     end
 
     function CLAHE:setTileGridSize(tileGridSize)
-        C.CLAHE_setTileGridSize(self.ptr, TileGridSize)
+        C.CLAHE_setTileGridSize(self.ptr, tileGridSize)
     end
 
     function CLAHE:getTileGridSize()
